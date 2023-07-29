@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import { useRouter } from "next/navigation";
-// import { UserButton } from "@clerk/nextjs";
 
 import { Button } from "@/components/ui/button";
 import { Icons } from "@/components/ui/icons";
@@ -33,7 +32,6 @@ export function NavbarActions() {
           {cart.items.length}
         </span>
       </Button>
-      {/* <UserButton /> */}
     </div>
   );
 }

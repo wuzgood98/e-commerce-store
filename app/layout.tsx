@@ -3,7 +3,6 @@ import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
-// import { ClerkProvider } from "@clerk/nextjs";
 
 import { cn } from "@/lib/utils";
 
